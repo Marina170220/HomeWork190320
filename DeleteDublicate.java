@@ -59,12 +59,8 @@ public class DeleteDublicate {
         System.out.println(arr2.length);//выводим длину второго массива
 
         for (int i = 0; i < arr2.length; i++) {//присваиваем элементам 2-го массива значения эле-тов 1-го м-ва
-            /*for (int j = 1; j < arr2.length; j++) {
-            if (arr1[i] != arr1[j]) {*/
             arr2[i] = arr1[i];
         }
-        /*}
-        }*/
 
         System.out.print("Новый массив: ");
         for (int i = 0; i < arr2.length; i++) {//вывод полученного массива
